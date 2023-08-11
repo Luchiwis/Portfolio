@@ -100,21 +100,16 @@ section{
     width: 50%;
     transform: translateX(50%);
 }
-.contenedor_chico form label{
-    display: block;
-    text-align: left;
-    
-}
-.contenedor_chico form input{
-    text-align: right;
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
 }
 
-input[type="submit"]{
-    border: 2px yellow groove;
-    padding: 5%;
-    border-radius: 12px;
-    background-color: white;
+input, textarea{
+    text-align: center;
 }
+
 
 textarea{
     resize: none;
@@ -131,16 +126,14 @@ footer{
 
 }
 
-footer p img{
-    margin: 5px;
+.social{
+    margin: auto;
+    text-align: center;
 }
 
-#insta{
-    width:30px;
+.social a img{
+    width: 30px;
 }
-#face{
-    width: 25px;
-}
-#linkedin{
-    width: 27px;
+h3{
+    text-align: center;
 }
